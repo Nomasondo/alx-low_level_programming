@@ -16,21 +16,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
-#endif
-
-
-===============================================
-
-0-reset_to_98.c
-
-#include "main.h"
-/**
- * reset_to_98 - a function that takes a pointer to an int as parameter
- * and updates the value it points to to 98
- * @n: input
- * Return: n
- */
-void reset_to_98(int *n)
-{
-	*n = 98;
-}
+#endif}
